@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.meituan</groupId>
+	<groupId>oliver</groupId>
 	<artifactId>jvm.demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>jvm.demo</name>
@@ -15,9 +15,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>cn.gunct.oliver</groupId>
-			<artifactId>util</artifactId>
-			<version>1.1</version>
+			<groupId>cn.gunct</groupId>
+			<artifactId>oliver.util</artifactId>
+			<version>1.1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
