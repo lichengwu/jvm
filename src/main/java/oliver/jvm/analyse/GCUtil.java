@@ -21,9 +21,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import oliver.util.Closer;
+import oliver.lang.Closer;
+import oliver.lang.StringUtil;
 import oliver.util.date.DateUtil;
-import oliver.util.string.StringUtil;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -87,7 +87,7 @@ final public class GCUtil {
      * @author lichengwu
      * @created 2011-11-19
      * 
-     * @param app
+     * @param appFile
      * @return
      */
     public static Map<String, Object> getAppGCInfoMap(File appFile) {
