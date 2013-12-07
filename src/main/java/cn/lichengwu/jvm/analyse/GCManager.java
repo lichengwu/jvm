@@ -17,8 +17,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
-import lichengwu.util.date.DateUtil;
 
+import cn.lichengwu.utils.date.DateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -49,8 +49,7 @@ public class GCManager {
     public Map<String, Object> report() {
 //        File gcLogPath = new File(ConfigUtil.getValueByKey("jvm.gc.log.path"));
     	File gcLogPath = new File("jvm.gc.log.path");
-        String date = DateUtil.date2String(DateUtil.toYesterday(new Date()),
-                "yyyy-MM-dd");
+        String date = DateUtil.date2String(DateUtil.toYesterday(new Date()), "yyyy-MM-dd");
         final String suffix = ".gc.log." + date;
         File[] logFiles = gcLogPath.listFiles(new FilenameFilter() {
             @Override

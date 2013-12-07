@@ -5,6 +5,8 @@
  */
 package cn.lichengwu.jvm.jvm.gc;
 
+import cn.lichengwu.utils.collection.CollectionUtil;
+
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
 import java.util.List;
@@ -15,7 +17,6 @@ import javax.management.MBeanException;
 import javax.management.MalformedObjectNameException;
 import javax.management.ReflectionException;
 
-import lichengwu.util.colloection.CollectionUtil;
 
 /**
  * 获得垃圾回收器的名字

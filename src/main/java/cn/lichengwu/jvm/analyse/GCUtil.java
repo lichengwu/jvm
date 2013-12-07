@@ -21,10 +21,10 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import lichengwu.lang.Closer;
-import lichengwu.lang.StringUtil;
-import lichengwu.util.date.DateUtil;
 
+import cn.lichengwu.utils.date.DateUtil;
+import cn.lichengwu.utils.lang.Closer;
+import cn.lichengwu.utils.lang.StringUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
